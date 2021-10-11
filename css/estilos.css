@@ -1,0 +1,16 @@
+.all{}
+.contenedor{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(200, 130, 130, 0.7);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item{
+    width: 10em;
+    height: 10em;
+    background-color: darkcyan;
+    border: solid 2px black;
+}
